@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: whitesmoke;
+
+}
+
+table {
+    border-collapse: separate;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+th, td {
+    border: 1px solid rgb(69, 137, 227);
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(94, 159, 228);
+    color: white;
+    border-radius: 2px;
+}
+
+th {
+    background-color: #1566e0;
+    color: white;
+    border-radius: 5px;
+}
+#navlink-container{
+    background-color: #1566e0;
+    width: 20%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+#navlink-container li{
+    list-style-type: none;
+    padding: 30px;
+    
+
+}
+#navlink-container li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+li:active{
+    background-color:white;
+    color: #1566e0;
+    
+
+}
+
+
