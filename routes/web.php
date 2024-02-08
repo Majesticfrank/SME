@@ -35,4 +35,4 @@ Route::get('display/courses',[coursesController::class,'displaycourses'])-> name
 Route::get('admin/dashboard',[dahController::class,'Admindisplay'])-> name('admin_dashboard');
 Route::get('edit/courses/display/{courseID}',[coursesController::class,'Editcourses'])->name('edit_courses_display');
 Route::put('edit/{courseID}',[coursesController::class,'edit'])->name('Edit_course');
-Route::delete('destroy/{courseId}',[coursesController::class,'destroy'])->name('destroy_course');
+Route::delete('destroy/{courseId}',[coursesController::class,'remove'])->name('destroy_course');
