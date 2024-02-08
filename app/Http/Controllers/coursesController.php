@@ -84,11 +84,11 @@ public function edit(Request $retrieve,  $courseID ){
 
 }
 
-public function destroy($courseID){
+public function remove($courseID){
     $course=$this->course->find($courseID);
     $course->delete();
 
-    
+
     return redirect()->route('admin_dashboard');
 
 
